@@ -1,2 +1,2 @@
 # irwhois
-Simple Whois For IR Domains
+A Simple PHP Function For Whois IR Domains
