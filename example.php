@@ -1,6 +1,3 @@
-<?php
-require_once 'irwhois.php';
-?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -15,6 +12,7 @@ require_once 'irwhois.php';
 	<br>
 	<?php
 	if (isset($_POST['submit'])) {
+		require_once 'irwhois.php';
 		$result = whois($_POST['domain']);
 		echo '<pre>';
 		echo $result;
